@@ -1,0 +1,16 @@
+.ui-dialog input[type="text"], .ui-dialog select, .ui-dialog textarea {
+	background-color: #ddf !important;
+    border-color: #22f !important;
+    color: #000 !important;
+}
+.ui-dialog input[type="text"][disabled="true"],	.ui-dialog input[type="text"][disabled="disabled"],	.ui-dialog input[type="text"][readonly="readonly"],
+.ui-dialog select[type="text"][disabled="true"],	.ui-dialog select[type="text"][disabled="disabled"],	.ui-dialog select[type="text"][readonly="readonly"],
+.ui-dialog textarea[type="text"][disabled="true"],	.ui-dialog textarea[type="text"][disabled="disabled"],	.ui-dialog textarea[type="text"][readonly="readonly"] {
+	background-color: #fdd !important;
+    border-color: #f22 !important;
+}
+
+.ui-dialog button[type=roll] {
+	width: 25px !important;
+	padding: 6px 7px 4px 5px !important;
+}
