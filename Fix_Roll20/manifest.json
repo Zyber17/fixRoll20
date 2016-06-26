@@ -2,12 +2,11 @@
 	"manifest_version": 2,
 	"name": "Fix Roll20",
 	"description": "Makes Roll20 not dumb about displaying noneditable boxes.",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"content_scripts": [
 		{
 			"matches": ["https://app.roll20.net/editor/"],
 			"css": ["fixroll20.css"]
 		}
-	],
-	"update_url": "https://github.com/Zyber17/fixRoll20/raw/master/update.xml"
+	]
 }
